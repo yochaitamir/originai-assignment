@@ -1,0 +1,41 @@
+.conatinerWrraper{
+    padding:20px;
+    display:inline-block;
+    position:relative;
+}
+.pic{
+    width:200px;
+    height:200px
+    }
+.like{
+    width:20px;
+    height:20px;
+    position:absolute;
+    right:20px;
+    bottom:0;
+    }
+.dislike{
+    width:20px;
+    height:20px;
+    position:absolute;
+    left:20px;
+    bottom:0;
+    }
+.dislikeRatings{
+    position:absolute;
+    left:40px;
+    bottom:0;
+}
+.likeRatings{
+    position:absolute;
+    right:40px;
+    bottom:0;
+}
+.csvIcon{
+    position:fixed;
+    right:20px;
+    top:20px;
+    width:40px;
+    height:40px;
+    z-index:999
+}
