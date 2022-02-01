@@ -21,6 +21,7 @@
                 .then(response => response.json())
                 .then(data => console.log(data));
                 }
+                
          return <div className="conatinerWrraper">
                     <img key={i} className="pic"  src={item.image_url} loading="lazy"/>
                     <img key={i} className="dislike" onClick={()=>handleDislikeButton(item)} src={"/dislike.png"}/>
