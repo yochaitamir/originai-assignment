@@ -13,7 +13,6 @@ app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///images-rating.db"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
-
 @dataclass
 class Image(db.Model):
     image_id: int
